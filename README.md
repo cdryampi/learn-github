@@ -12,6 +12,8 @@ Crea un `Fork` para contribuir, más información: [cómo contribuir a este repo
 - [Ejercicio 2](#ejercicio-2)
 - [Ejercicio 3](#ejercicio-3)
 - [Ejercicio 4](#ejercicio-4)
+- [Ejercicio 5](#ejercicio-5)
+- [Ejercicio 6](#ejercicio-6)
 
 ---
 
@@ -236,5 +238,50 @@ Aprender a proponer cambios en un repositorio original mediante un Pull Request.
 
 1. Vamos a hacer una PR al la rama `resultados` con los cambios de la rama ``libro` que estamos trabajando.
    1.1 ![Resultado de la PR](./src/img/ejercicio5.png)
+2. Cuando se acepte la PR, se fusionarán los cambios en la rama `resultados`.
+
+3. Tenemos que hacer un pull para traer los cambios a la rama `resultados`.
+
+```bash
+git pull origin resultados
+```
+
+4. Ahora ya podemos trabajar con la rama de `resultados`.
+   4.1 ![Resultado del pull](./src/img/ejercicio5-1.png)
+
+## **Importante: Tenemos los Forks de todos compañeros, hay que asegurarse que seleccionamos de origen mi rama de mi repositorio y como compare la rama de cambios**
+
+---
+
+## Ejercicio 6
+
+### Objetivo:
+
+Familiarizarse con la contribución a proyectos Open Source en GitHub.
+
+### Instrucciones:
+
+1. Busca un proyecto Open Source en GitHub que acepte contribuciones y haz un **fork**.
+2. Lee las directrices del proyecto (`CONTRIBUTING.md` o `README.md`).
+3. Identifica un problema en la sección de **Issues** y asígnatelo si es posible.
+4. Crea una nueva rama con un nombre descriptivo y realiza los cambios en el código.
+5. Confirma y sube los cambios a tu fork.
+6. Abre un **Pull Request** siguiendo las normas del proyecto.
+7. Espera la revisión del equipo del proyecto y realiza cambios si es necesario.
+8. Una vez aceptado el PR, celebra tu primera contribución Open Source 🎉.
+
+### Resultados:
+
+1. Hicimos un fork del repositorio `learn-github`.
+   1.1 [Fork de learn-github](./src/img/ejercicio3.png)
+2. Hemos leído las recomendaciones para realizar una contribución.
+   2.1 [Recomendaciones para contribuir](./CONTRIBUTING.md)
+3. Vamos a crearnos una Issue para asignarnosla en el repositorio de propio.
+   3.1 **Importante:** No podemos asignarnos una Issue en un repositorio donde no somos colaboradores.
+
+4. Vamos a inviar nuestra rama a la rama `resultados` para que se vea en el repositorio original.
+
+   4.1 Solo vamos a Enviar la PR, no podemos hacerla porque no somos colaboradores del repositorio original.
+   4.2 Esperamos que el propietario del repositorio acepte la PR.
 
 ---
