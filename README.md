@@ -30,3 +30,29 @@ etc.
 ```
 
 - `git log` debe mostrar los commits de cada rama más el commit de merge.
+
+2. resolución
+
+```bash
+git checkout -b introduccion
+echo "introduccion" > intro.txt
+git add intro.txt
+git commit -m "introduccion"
+git checkout -b capitulo01
+echo "capitulo01" > capitulo01.txt
+git add capitulo01.txt
+git commit -m "capitulo01"
+git checkout -b capitulo02
+echo "capitulo02" > capitulo02.txt
+git add capitulo02.txt
+git commit -m "capitulo02"
+git checkout introduccion
+git merge capitulo01
+git merge capitulo02
+
+```
+
+3. Resultado del `git log --oneline`
+   3.1 ![Resultado del git log](./src/img/ejercicio1.png)
+
+---
