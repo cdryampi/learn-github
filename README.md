@@ -9,6 +9,7 @@ Crea un `Fork` para contribuir, más información: [cómo contribuir a este repo
 ## Índice
 
 - [Ejercicio 1](#ejercicio-1)
+- [Ejercicio 2](#ejercicio-2)
 
 ---
 
@@ -54,5 +55,50 @@ git merge capitulo02
 
 3. Resultado del `git log --oneline`
    3.1 ![Resultado del git log](./src/img/ejercicio1.png)
+
+---
+
+## Ejercicio 2
+
+### Objetivo:
+
+Aprender a clonar un repositorio remoto en tu máquina local.
+
+### Instrucciones:
+
+1. Busca un repositorio público en GitHub que te interese o usa este repositorio de ejemplo:  
+   `[URL_DEL_REPOSITORIO]`
+2. Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/usuario/repo.git
+   ```
+3. Accede al directorio del repositorio clonado:
+   ```bash
+   cd repo
+   ```
+4. Verifica que la clonación fue exitosa listando los archivos del repositorio.
+
+### Resultados:
+
+1. Clonamos el repositorio de `cv_backend`.
+   1.1 ```bash
+   git clone [cv_backend](https://github.com/cdryampi/curriculum-backend.git)
+   ```
+
+   ```
+2. Accedemos al directorio del repositorio clonado.
+   2.1 ```bash
+   cd curriculum-backend
+   ```
+
+   ```
+3. Listamos los archivos del repositorio.
+   3.1 ```bash
+   dir
+   ```
+
+   ```
+4. Resultado de la clonación.
+   4.1 ![Resultado de la clonación](./src/img/ejercicio2.png)
 
 ---
