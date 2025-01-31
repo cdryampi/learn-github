@@ -10,6 +10,8 @@ Crea un `Fork` para contribuir, más información: [cómo contribuir a este repo
 
 - [Ejercicio 1](#ejercicio-1)
 - [Ejercicio 2](#ejercicio-2)
+- [Ejercicio 3](#ejercicio-3)
+- [Ejercicio 4](#ejercicio-4)
 
 ---
 
@@ -109,7 +111,59 @@ Aprender a clonar un repositorio remoto en tu máquina local.
 
 ---
 
-## 3. Hacer un Fork de un repositorio
+## Ejercicio 3
+
+### Objetivo:
+
+Practicar cómo sincronizar los cambios entre el repositorio local y el remoto.
+
+### Instrucciones:
+
+1. Abre el repositorio clonado en el ejercicio anterior.
+2. Crea un nuevo archivo llamado `mi_archivo.txt` y agrega algo de texto en él.
+3. Agrega y confirma los cambios:
+
+   ```bash
+   git add mi_archivo.txt
+   git commit -m "Agregado mi_archivo.txt"
+   ```
+
+4. Envía los cambios al repositorio remoto:
+
+   ```bash
+   git push origin main
+   ```
+
+5. Si hay nuevos cambios en el repositorio remoto realizados por otros colaboradores, actualiza tu repositorio local con:
+
+   ```bash
+   git pull origin main
+   ```
+
+6. Verifica que los cambios se han fusionado correctamente.
+
+### Resultados:
+
+1. Vamos a realizar una push hacia el repositorio remoto desde la rama del `libro`.
+
+```bash
+git add .
+git commit -m "cambios en el libro"
+git push origin libro
+```
+
+2. Vamos a modificar el fichero desde el repositorio remoto y hacer un pull para traer los cambios.
+
+```bash
+git pull origin libro
+```
+
+3. Resultado de la modificación y el pull.
+   3.1 ![Resultado de la modificación y el pull](./src/img/ejercicio3.png)
+
+---
+
+## Ejercicio 4
 
 ### Objetivo:
 
