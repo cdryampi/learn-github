@@ -159,7 +159,7 @@ git pull origin libro
 ```
 
 3. Resultado de la modificación y el pull.
-   3.1 ![Resultado de la modificación y el pull](./src/img/ejercicio3.png)
+   3.1 ![Resultado de la modificación y el pull](./src/img/ejercicio3-1.png)
 
 ---
 
@@ -200,4 +200,41 @@ Aprender a hacer un **fork** de un repositorio para trabajar en una copia indepe
 
 ---
 
-cambios raros
+## Ejercicio 5
+
+### Objetivo:
+
+Aprender a proponer cambios en un repositorio original mediante un Pull Request.
+
+### Instrucciones:
+
+1. Clona tu **fork** del repositorio (si no lo hiciste en el ejercicio anterior).
+2. Crea una nueva rama para trabajar en una mejora o corrección de código:
+
+   ```bash
+   git checkout -b mejora-README
+   ```
+
+3. Realiza cambios en el código (por ejemplo, edita el archivo `README.md`).
+4. Guarda y confirma los cambios:
+
+   ```bash
+   git add README.md
+   git commit -m "Mejorado el README con información adicional"
+   ```
+
+5. Sube la rama a tu repositorio en GitHub:
+
+   ```bash
+   git push origin mejora-README
+   ```
+
+6. En GitHub, ve a la página de tu fork y presiona el botón **"Comparar y hacer Pull Request"**.
+7. Explica los cambios que hiciste y envía el Pull Request al repositorio original.
+
+### Resultados:
+
+1. Vamos a hacer una PR al la rama `resultados` con los cambios de la rama ``libro` que estamos trabajando.
+   1.1 ![Resultado de la PR](./src/img/ejercicio5.png)
+
+---
