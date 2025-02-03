@@ -58,6 +58,7 @@ git merge capitulo02
 ```
 
 3. Resultado del `git log --oneline`
+
    3.1 ![Resultado del git log](./src/img/ejercicio1.png)
 
 ---
@@ -85,6 +86,7 @@ Aprender a clonar un repositorio remoto en tu máquina local.
 ### Resultados:
 
 1. Clonamos el repositorio de `cv_backend`.
+
    1.1 ```bash
    git clone [cv_backend](https://github.com/cdryampi/curriculum-backend.git)
 
@@ -93,6 +95,7 @@ Aprender a clonar un repositorio remoto en tu máquina local.
    ```
 
 2. Accedemos al directorio del repositorio clonado.
+
    2.1 ```bash
    cd curriculum-backend
 
@@ -101,6 +104,7 @@ Aprender a clonar un repositorio remoto en tu máquina local.
    ```
 
 3. Listamos los archivos del repositorio.
+
    3.1 ```bash
    dir
 
@@ -161,6 +165,7 @@ git pull origin libro
 ```
 
 3. Resultado de la modificación y el pull.
+
    3.1 ![Resultado de la modificación y el pull](./src/img/ejercicio3-1.png)
 
 ---
@@ -190,6 +195,7 @@ Aprender a hacer un **fork** de un repositorio para trabajar en una copia indepe
 ### Resultados:
 
 1. Hicimos un fork del repositorio `learn-github`.
+
    1.1 [Fork de learn-github](./src/img/ejercicio3.png)
 
 2. Comprobamos que tenemos el repositorio correctamente y conectado en el remoto.
@@ -237,7 +243,9 @@ Aprender a proponer cambios en un repositorio original mediante un Pull Request.
 ### Resultados:
 
 1. Vamos a hacer una PR al la rama `resultados` con los cambios de la rama ``libro` que estamos trabajando.
+
    1.1 ![Resultado de la PR](./src/img/ejercicio5.png)
+
 2. Cuando se acepte la PR, se fusionarán los cambios en la rama `resultados`.
 
 3. Tenemos que hacer un pull para traer los cambios a la rama `resultados`.
@@ -273,11 +281,18 @@ Familiarizarse con la contribución a proyectos Open Source en GitHub.
 ### Resultados:
 
 1. Hicimos un fork del repositorio `learn-github`.
+
    1.1 [Fork de learn-github](./src/img/ejercicio3.png)
+
 2. Hemos leído las recomendaciones para realizar una contribución.
+
    2.1 [Recomendaciones para contribuir](./CONTRIBUTING.md)
+
 3. Vamos a crearnos una Issue para asignarnosla en el repositorio de propio.
+
    3.1 **Importante:** No podemos asignarnos una Issue en un repositorio donde no somos colaboradores.
+   3.2 [Issue asignada](./src/img/ejercicio6-1.png)
+   3.3 link de la Issue: [Enlace de la Issue](https://github.com/cesarlpb/learn-github/issues/13)
 
 4. Vamos a inviar nuestra rama a la rama `resultados` para que se vea en el repositorio original.
 
