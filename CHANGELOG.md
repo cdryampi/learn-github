@@ -27,3 +27,4 @@
 
 - Se ha aprendido a hacer una Issue en github. **Importante: Solo deja hacerla en el repositorio original**. Por el momento no podemos porque no somos colaboradores del repositorio original.
 - Se ha aprendido a enviar una PR a un proyecto ajeno.
+- Se ha aprendido a hacer una Issue en un proyecto ajeno y a enviar una PR a un proyecto ajeno.
